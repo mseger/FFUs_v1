@@ -1,0 +1,130 @@
+extends layout
+
+block content
+  script(src='/javascripts/jquery.min.js')
+  script(src='/javascripts/jquery.poptrox.min.js')
+  script(src='/javascripts/skel.min.js')
+  script(src='/javascripts/init.js')
+  noscript
+    link(rel='stylesheet', href='/css/skel.css')
+    link(rel='stylesheet', href='/css/style.css')
+    link(rel='stylesheet', href='/css/style-desktop.css')
+    link(rel='stylesheet', href='/css/style-noscript.css')
+  body
+    #wrapper
+      #main
+        #reel
+          //
+             Header Item 
+          #header.item(data-width='400')
+            .inner
+              h1 Placeholder
+              p
+                | Lorem ipsum blah blah blah 
+                br
+                | Lorem ipsum blah blah blah
+          //
+             Thumb Items 
+          article.item.thumb(data-width='282')
+            h2 You really got me
+            a(href='/images/fulls/01.jpg')
+              img(src='/images/thumbs/01.jpg', alt='')
+          article.item.thumb(data-width='384')
+            h2 Ad Infinitum
+            a(href='/images/fulls/02.jpg')
+              img(src='/images/thumbs/02.jpg', alt='')
+          article.item.thumb(data-width='274')
+            h2 Different.
+            a(href='/images/fulls/03.jpg')
+              img(src='/images/thumbs/03.jpg', alt='')
+          article.item.thumb(data-width='282')
+            h2 Elysium
+            a(href='/images/fulls/04.jpg')
+              img(src='/images/thumbs/04.jpg', alt='')
+          article.item.thumb(data-width='476')
+            h2 Kingdom of the Wind
+            a(href='/images/fulls/05.jpg')
+              img(src='/images/thumbs/05.jpg', alt='')
+          article.item.thumb(data-width='232')
+            h2 The Pursuit
+            a(href='/images/fulls/06.jpg')
+              img(src='/images/thumbs/06.jpg', alt='')
+          article.item.thumb(data-width='352')
+            h2 Boundless
+            a(href='/images/fulls/07.jpg')
+              img(src='/images/thumbs/07.jpg', alt='')
+          article.item.thumb(data-width='348')
+            h2 The Spectators
+            a(href='/images/fulls/08.jpg')
+              img(src='/images/thumbs/08.jpg', alt='')
+          //
+             Filler Thumb Items (just for demonstration purposes) 
+          article.item.thumb(data-width='476')
+            h2 Kingdom of the Wind
+            a(href='/images/fulls/05.jpg')
+              img(src='/images/thumbs/05.jpg', alt='')
+          article.item.thumb(data-width='232')
+            h2 The Pursuit
+            a(href='/images/fulls/06.jpg')
+              img(src='/images/thumbs/06.jpg', alt='')
+          article.item.thumb(data-width='352')
+            h2 Boundless
+            a(href='/images/fulls/07.jpg')
+              img(src='/images/thumbs/07.jpg', alt='')
+          article.item.thumb(data-width='348')
+            h2 The Spectators
+            a(href='/images/fulls/08.jpg')
+              img(src='/images/thumbs/08.jpg', alt='')
+          article.item.thumb(data-width='282')
+            h2 You really got me
+            a(href='/images/fulls/01.jpg')
+              img(src='/images/thumbs/01.jpg', alt='')
+          article.item.thumb(data-width='384')
+            h2 Ad Infinitum
+            a(href='/images/fulls/02.jpg')
+              img(src='/images/thumbs/02.jpg', alt='')
+          article.item.thumb(data-width='274')
+            h2 Different.
+            a(href='/images/fulls/03.jpg')
+              img(src='/images/thumbs/03.jpg', alt='')
+          article.item.thumb(data-width='282')
+            h2 Elysium
+            a(href='/images/fulls/04.jpg')
+              img(src='/images/thumbs/04.jpg', alt='')
+      #footer
+        .left
+          p
+            | This is
+            strong A PLACEHOLDER
+            | , Lorem ipsum blah blah blah
+            a(href='http://html5up.net') Lorem ipsum blah blah blah
+            | Lorem ipsum blah blah blah
+            br
+            | Lorem ipsum blah blah blah
+            a(href='http://html5up.net/license') Lorem ipsum blah blah blah
+            | Lorem ipsum blah blah blah
+        .right
+          ul.contact
+            li
+              a.icon.fa-twitter(href='#')
+                span.label Twitter
+            li
+              a.icon.fa-instagram(href='#')
+                span.label Instagram
+            li
+              a.icon.fa-facebook(href='#')
+                span.label Facebook
+            li
+              a.icon.fa-dribbble(href='#')
+                span.label Dribbble
+            li
+              a.icon.fa-pinterest(href='#')
+                span.label Pinterest
+            li
+              a.icon.fa-envelope(href='#')
+                span.label Email
+          ul.copyright
+            li © Untitled
+            li
+              | Design:
+              a(href='http://html5up.net') HTML5 UP
